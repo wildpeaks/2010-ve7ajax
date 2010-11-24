@@ -174,7 +174,7 @@ Microsoft.Maps.Map.prototype._viewend = function(){
 Microsoft.Maps._Map = Microsoft.Maps.Map;
 Microsoft.Maps.Map = function(container, options){
 	var map = new Microsoft.Maps._Map(container, options);
-	
+
 	// Sticky infoboxes that were open when the map starts changing of view
 	// and that should be re-open when the view change ends.
 	map._viewreopen = new Microsoft.Maps.EntityCollection();
