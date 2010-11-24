@@ -43,11 +43,13 @@ Microsoft.Maps.Pushpin.prototype.ShowInfoBox = function(){
 	this._infobox
 	 .css('left', pos.x + 'px')
 	 .css('top', pos.y + 'px')
-	 .show();
+	 //.show(); //no transition
+	 .fadeIn('fast'); //short transition
 	this._infoboxShown = true;
 };
 Microsoft.Maps.Pushpin.prototype.HideInfoBox = function(){
-	this._infobox.hide();
+	//this._infobox.hide(); //no transition
+	this._infobox.fadeOut('fast'); //short transition
 	this._infoboxShown = false;
 };
 
