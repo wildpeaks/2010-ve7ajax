@@ -1,0 +1,33 @@
+/** Theme the default infobox **/
+.VE_Pushpin_Popup {
+	padding: 5px;
+	min-width: 200px;
+	max-width: 400px;
+
+	color: black;
+	border: 1px solid black;
+	background-color: white;
+	font-family: Helvetica, Arial, sans-serif;
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.VE_Pushpin_Popup .Title {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.VE_Pushpin_Popup .Description {
+	font-size: 11px;
+	text-align: justify;
+}
+
+
+/** Theme custom infobox contents **/
+.VE_Pushpin_Popup button {
+	display: block;
+	padding: 5px;
+	margin: 10px auto;
+}
